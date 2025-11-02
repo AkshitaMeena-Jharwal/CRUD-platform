@@ -19,7 +19,7 @@ Admins can define new models using a form-based editor:
 - RBAC permissions per role (Admin, Manager, Viewer)
 
 **Example model definition:**
-```json
+'''json
 {
   "name": "Employee",
   "fields": [
@@ -34,6 +34,8 @@ Admins can define new models using a form-based editor:
     "Viewer": ["read"]
   }
 }
+'''
+
 💾 2. File-Based Model Persistence
 When a model is published:
 
