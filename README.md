@@ -228,7 +228,9 @@ CRUD endpoints visible in API tester (Postman)
 
 RBAC enforcement examples
 
-![Admin Dashboard Screenshot](./frontend/public/Screenshot 2025-11-02 150836.png)
+![Admin Dashboard Screenshot](CRUD-platform/frontend/public
+/Screenshot 2025-11-02 150836.png
+)
 
 📄 License
 This project is open-source under the MIT License.
