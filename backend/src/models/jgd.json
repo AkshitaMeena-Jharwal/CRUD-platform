@@ -1,0 +1,29 @@
+{
+  "name": "jgd",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "required": false
+    }
+  ],
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Manager": [
+      "create",
+      "read",
+      "update"
+    ],
+    "Viewer": [
+      "read"
+    ]
+  },
+  "tableName": "jgds"
+}

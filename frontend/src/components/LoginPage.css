@@ -1,0 +1,41 @@
+/* Add these to your existing LoginPage.css */
+
+.google-button-container {
+  margin-bottom: 1.5rem;
+}
+
+/* Style the Google button container */
+.google-button-container > div {
+  width: 100% !important;
+}
+
+.demo-info {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.demo-info summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: #666;
+  outline: none;
+}
+
+.demo-accounts {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.demo-accounts p {
+  margin: 0.25rem 0;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.demo-accounts strong {
+  color: #2c3e50;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Employee",
+  "fields": [
+    {
+      "name": "firstName",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "lastName",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    {
+      "name": "salary",
+      "type": "number",
+      "required": true
+    },
+    {
+      "name": "department",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "isActive",
+      "type": "boolean",
+      "default": true
+    }
+  ],
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Manager": [
+      "create",
+      "read",
+      "update"
+    ],
+    "Viewer": [
+      "read"
+    ]
+  },
+  "tableName": "employees"
+}

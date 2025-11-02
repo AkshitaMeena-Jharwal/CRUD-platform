@@ -1,0 +1,40 @@
+{
+  "name": "Product",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "price",
+      "type": "number",
+      "required": true
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "required": false
+    },
+    {
+      "name": "isActive",
+      "type": "boolean",
+      "default": true
+    }
+  ],
+  "ownerField": "ownerId",
+  "rbac": {
+    "Admin": [
+      "all"
+    ],
+    "Manager": [
+      "create",
+      "read",
+      "update"
+    ],
+    "Viewer": [
+      "read"
+    ]
+  },
+  "tableName": "products"
+}
