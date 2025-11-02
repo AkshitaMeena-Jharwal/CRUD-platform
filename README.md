@@ -1,8 +1,7 @@
-## RBAC Enforcement Examples
+![Screenshot 1](https://github.com/AkshitaMeena-Jharwal/CRUD-platform/blob/main/frontend/public/Screenshot%202025-11-02%20150836.png?raw=true)
 
-![Model Form](./frontend/public/Screenshot-2025-11-02-150836.png)
+![Screenshot 2](https://github.com/AkshitaMeena-Jharwal/CRUD-platform/blob/main/frontend/public/Screenshot%202025-11-02%20150853.png?raw=true)
 
-![Admin Dashboard Screenshot](./frontend/public/Screenshot-2025-11-02-150836.png)
 # 🧩 Auto-Generated CRUD + RBAC Platform
 
 A **low-code internal developer platform** that allows admin users to define data models dynamically through a web interface.  
