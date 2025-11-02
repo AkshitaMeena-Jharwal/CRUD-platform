@@ -227,6 +227,8 @@ Model creation UI
 CRUD endpoints visible in API tester (Postman)
 
 RBAC enforcement examples
+![Model Form](CRUD-platform/frontend/public
+/Screenshot 2025-11-02 150836.png)
 
 ![Admin Dashboard Screenshot](CRUD-platform/frontend/public
 /Screenshot 2025-11-02 150836.png
